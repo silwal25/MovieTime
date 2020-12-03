@@ -1,0 +1,103 @@
+@font-face{
+    font-family: "Montsarrat";
+    src: url("/MovieTime/Fonts/Montserrat-Regular.otf");
+}
+
+@font-face{
+    font-family: "Montsarrat-Bold";
+    src: url("/MovieTime/Fonts/Montserrat-Bold.otf");
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: "Montserrat";
+    background-color: rgb(23, 23, 23);
+    color: rgb(255, 255, 255);
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat-Bold";
+}
+
+img{
+    max-width: 100%;
+}
+
+.wrapper{
+    padding-left: 80px;
+    padding-right: 80px;
+    min-height: 100%;
+}
+
+.category-title{
+    padding-top: 30px;
+}
+
+.trending-carousel{
+    padding: 0;
+    margin-top: 56px;
+}
+
+.card{
+    border: 4px solid white;
+    border-radius: 20px;
+}
+
+.ytvideo{
+    margin-top: 56px;
+    margin-bottom: 50px;
+}
+
+.result-wrapper, .about-wrapper, .browse{
+    margin-top: 56px;
+}
+
+.navigation{
+    margin-top: 120px;
+    max-width: 20%;
+    border-right: 1px solid white;
+}
+
+.fa-instagram{
+    font-size: 30px;
+}
+
+.result-card{
+    max-height: 300px;
+    max-width: 200px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+ }
+ 
+ .row > div[class*='col-'] {
+   display: flex;
+ }
+
+ .confirmation-text{
+     margin-top: 100px;
+ }
+
+td, th{
+    color: white;
+    font-family: "Montsarrat";
+}
+
+.profile{
+    margin-top: 80px;
+}
+
+.card{
+    background-color: rgb(23, 23, 23);
+}
+
+.page-footer{
+    margin-top: 10%;
+}
+
+.about-wrapper{
+    margin-top: 70px;
+}
